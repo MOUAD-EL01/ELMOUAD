@@ -54,12 +54,12 @@ export const HoverEffect = ({
             <img
               src={item.image}
               alt=""
-              className="p-2 rounded-md lg:w-[600px] lg:h-[270px]"
+              className="p-2 rounded-md mr-16 lg:w-[600px] lg:h-[270px]"
             />
             {/* <CardDescription className="p-4 h-[160px]">
               {item.description}
             </CardDescription>{" "} */}
-            <div className=" relative flex justify-start gap-4 p-4">
+            <div className=" relative flex justify-start gap-2 p-4">
               {item.stack?.map((stack) => {
                 return (
                   <div className=" border border-black p-2  rounded-md hover:bg-slate-200">
