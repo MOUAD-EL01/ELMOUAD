@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { HoverEffect } from "../ui/card-hover-effect";
 import image1 from "../assets/tropical-plante.jpg";
 import image2 from "../assets/enara.jpg";

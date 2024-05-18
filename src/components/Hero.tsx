@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../assets/HeroImage.json";
 import Lottie from "lottie-react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
