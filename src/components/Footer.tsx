@@ -2,9 +2,9 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+    <footer className="bg-white rounded-lg shadow m-4 ">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span className="text-sm text-black sm:text-center dark:text-gray-400">
+        <span className=" flex justify-center text-sm text-black text-center ">
           © 2023{" "}
           <a href="#" className="hover:underline">
             Mouad Elattar

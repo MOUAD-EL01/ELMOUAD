@@ -35,7 +35,7 @@ const Tech = () => {
 };
 
 const renderTechSection = (items: Techs[], sectionTitle: string) => (
-  <div className="py-4 rounded-md flex flex-col antialiased dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+  <div className="py-4 rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
     <h2 className="font-bold text-2xl py-4 text-black">{sectionTitle}</h2>
     <InfiniteMovingCards items={items} direction="right" speed="slow" />
   </div>
