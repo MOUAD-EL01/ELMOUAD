@@ -28,7 +28,7 @@ export const HoverEffect = ({
         <a
           href={item?.link}
           key={item?.link}
-          className="relative group  block p-2 h-full w-[full]"
+          className="relative group  block p-2 h-full lg:w-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
@@ -62,7 +62,7 @@ export const HoverEffect = ({
             <div className=" relative flex justify-start gap-4 p-4">
               {item.stack?.map((stack) => {
                 return (
-                  <div className=" border border-black p-2 rounded-md hover:bg-slate-200">
+                  <div className=" border border-black p-2  rounded-md hover:bg-slate-200">
                     {stack}
                   </div>
                 ); // Added curly braces to render the stack variable
